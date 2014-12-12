@@ -59,7 +59,7 @@ all_games = stockfish('stockfish.csv','data_uci.pgn')
 ################Plot###############################
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-pp = PdfPages('multipage_pdf.pdf')
+pp = PdfPages('2700_example.pdf')
 games_f = []
 for game in all_games:
 	if 'NA' not in game.Stockfish:
